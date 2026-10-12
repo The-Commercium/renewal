@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use renewal in your work, please cite it as below."
+title: "renewal: retention, lifetime and conversion statistics for subscriptions"
+type: software
+version: 0.1.0
+date-released: 2026-10-12
+license: MIT
+repository-code: "https://github.com/The-Commercium/renewal"
+authors:
+  - family-names: Demirhan
+    given-names: Haluk
+    affiliation: Commercium Limited
+abstract: >-
+  Statistics for subscription products with small samples, implemented in R, Python and
+  TypeScript from one specification and checked against shared high-precision test vectors:
+  shifted beta-geometric and beta-discrete-Weibull retention models for right-censored data,
+  discounted expected (residual) lifetime with delta-method intervals, Jeffreys intervals for
+  rates, and hierarchical beta-binomial pooling with the hyperparameters integrated out.
+keywords: [retention, churn, customer lifetime value, survival analysis, subscriptions, R, Python, TypeScript]
+references:
+  - type: article
+    authors: [{family-names: Fader, given-names: Peter S.}, {family-names: Hardie, given-names: Bruce G. S.}]
+    title: "How to project customer retention"
+    journal: "Journal of Interactive Marketing"
+    volume: 21
+    issue: 1
+    start: 76
+    end: 90
+    year: 2007

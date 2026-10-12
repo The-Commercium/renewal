@@ -1,0 +1,24 @@
+Package: renewal
+Title: Retention, Lifetime and Conversion Statistics for Subscriptions
+Version: 0.1.0
+Authors@R: c(
+    person("Haluk", "Demirhan", email = "support@thecommercium.com", role = c("aut", "cre")),
+    person("Commercium Limited", role = c("cph", "fnd")))
+Description: Statistics for subscription products with small samples. Fits the
+    shifted beta-geometric model of Fader and Hardie (2007) <doi:10.1002/dir.20074> and the
+    beta-discrete-Weibull model of Fader et al. (2018) <doi:10.1016/j.intmar.2018.01.002> to
+    right-censored subscriber records or cohort counts, and reports survival, retention,
+    discounted expected lifetime and residual lifetime with delta-method intervals. Conversion
+    rates get Jeffreys intervals, and rates of several groups are pooled with a hierarchical
+    beta-binomial model whose hyperparameters are integrated out. Implemented in base R; the
+    same specification is implemented in Python and TypeScript and checked against shared,
+    high-precision test vectors.
+License: MIT + file LICENSE
+URL: https://github.com/The-Commercium/renewal
+BugReports: https://github.com/The-Commercium/renewal/issues
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats
+Suggests: testthat (>= 3.0.0), jsonlite
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0

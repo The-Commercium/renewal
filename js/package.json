@@ -1,0 +1,25 @@
+{
+  "name": "renewal",
+  "version": "0.1.0",
+  "description": "Retention, lifetime and conversion statistics for subscription products: sBG and beta-discrete-Weibull models, DEL/DERL, Jeffreys and hierarchical rates. No dependencies.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test test/*.test.ts"
+  },
+  "keywords": ["retention", "churn", "subscription", "lifetime value", "sbg", "survival analysis", "statistics", "bayesian"],
+  "license": "MIT",
+  "author": "Commercium Limited",
+  "repository": { "type": "git", "url": "git+https://github.com/The-Commercium/renewal.git", "directory": "js" },
+  "engines": { "node": ">=22.18" },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

@@ -1,5 +1,7 @@
 # renewal
 
+[![ci](https://github.com/The-Commercium/renewal/actions/workflows/ci.yml/badge.svg)](https://github.com/The-Commercium/renewal/actions/workflows/ci.yml)
+
 **How long do subscribers stay, what are they worth, and how sure can you be?**
 
 `renewal` fits the retention models of marketing science to subscription data, including the
